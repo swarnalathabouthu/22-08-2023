@@ -1,0 +1,141 @@
+h1{
+    background-color: aqua;
+}
+/* #para:empty{
+    background-color: brown;
+    border: 2px solid black;
+    height:200px;
+    width:200px;
+} */
+#A{
+    background-color: Red;
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+}
+#A:hover{
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#B{
+    background-color: rgb(175, 14, 121);
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:ease;
+}
+#B:hover{
+    background-color: rgb(0, 255, 21);
+    border: 2px solid rgb(10, 50, 169);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+#C{
+    background-color: rgb(38, 0, 255);
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:ease-in;
+}
+#C:hover{
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+#D{
+    background-color: rgb(21, 255, 0);
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:ease-out;
+}
+#D:hover{
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+#E{
+    background-color: rgb(18, 180, 229);
+    height:200px;
+    width:200px;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:ease-in-out;
+}
+#E:hover{
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+
+}
+
+#F:Empty{
+    background-color: rgb(210, 75, 41);
+    /* height:200px;
+    width:200px; */
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+}
+#F:hover{
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+}
+
+#J{
+    background-color: rgb(210, 75, 41);
+    height:200px;
+    width:100px;
+    margin:60px 60px;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+}
+
+#J:hover{
+    transform: rotate(360deg);
+    background: linear-gradient(Red,  green , blue);
+    border: 2px solid rgb(10, 50, 169);
+    height: 100px;
+    width: 50px;
+    /* border-radius: 50%; */
+}

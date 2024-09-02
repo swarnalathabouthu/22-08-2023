@@ -1,0 +1,147 @@
+body{
+    width: 100vw;
+    height: auto;
+    background-color: deepskyblue;
+    margin: 0% auto;
+}
+header{
+    text-align: center;
+    width: 100%;
+    background-color: grey;
+    color: white;
+    position: fixed;
+    top: 0em;
+}
+section{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding: 40px;
+    position: relative;
+    top: 7em;
+}
+.section1{
+    background-color: Red;
+    height: 30%;
+    width: 40%;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+    padding: 10px;
+    text-align: center;
+}
+.section1:hover{
+    transform: rotate(10deg);
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 30%;
+    width: 50%;
+}
+#img1{
+    background-color: Red;
+    height: 70%;
+    width: 80%;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+}
+#img1:hover{
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 80%;
+    width: 90%;
+    border-radius: 70%;
+}
+
+.section2{
+    background-color: Red;
+    height: 30%;
+    width: 30%;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+    text-align: center;
+    transform: scale(1.0,1.0);
+}
+.section2:hover{
+    transform: scale(1.1,1.1);
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 30%;
+    width: 40%;
+}
+#img2{
+    background-color: Red;
+    height:100px;
+    width:100px;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+    transform: scale(1.0,1.0);
+}
+#img2:hover{
+    transform: scale(1.1,1.1);
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 100px;
+    width: 120px;
+}
+
+.section3{
+    background-color: Red;
+    height: 30%;
+    width: 40%;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+    text-align: center;
+}
+.section3:hover{
+    transform: skewY(10deg);
+    opacity: 0.3;
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+.section4{
+    background-color: Red;
+    height: 30%;
+    width: 40%;
+    border: 2px solid black;
+    transition-property:all;
+    transition-duration: 3s;
+    transition-delay: 2s;
+    transition-timing-function:linear;
+    text-align: center;
+}
+.section4:hover{
+    translate: 50px 20px;
+    background-color: chartreuse;
+    border: 2px solid rgb(10, 50, 169);
+    height: 30%;
+    width: 40%;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    background-color: grey;
+    color: white;
+    position: fixed;
+    top: 39em;
+    text-align: center;
+}
